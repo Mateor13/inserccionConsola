@@ -44,7 +44,8 @@ public class Estudiantes {
         this.b2 = b2;
     }
     public void mostrarEstudiantes() {
-        System.out.println("\nCédula: " + getCedula());
+        System.out.println("\nDatos del estudiante: ");
+        System.out.println("Cédula: " + getCedula());
         System.out.println("Nombre: " + getNombre());
         System.out.println("Nota primer bimestre: " + getB1());
         System.out.println("Nota segundo bimestre: " + getB2());
