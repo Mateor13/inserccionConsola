@@ -44,11 +44,11 @@ public class Estudiantes {
         this.b2 = b2;
     }
     public void mostrarEstudiantes() {
-        System.out.println("Cédula: " + getCedula());
+        System.out.println("\nCédula: " + getCedula());
         System.out.println("Nombre: " + getNombre());
         System.out.println("Nota primer bimestre: " + getB1());
         System.out.println("Nota segundo bimestre: " + getB2());
         Double promedio = (getB1() + getB2())/2;
-        System.out.println("Promedio: " + String.format("%.2f",promedio));
+        System.out.println("Promedio: " + String.format("%.2f",promedio)+"\n");
     }
 }
