@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Estudiantes est = new Estudiantes();
         Scanner sc = new Scanner(System.in);
-        String url = "jdbc:mysql://localhost:3306/clasepoo";
+        String url = "jdbc:mysql://localhost:3306/clase";
         String usuario = "root";
         String clave = "123456";
         String query = "insert into estudiantes (cedula, nombre, b1, b2) values(?,?,?,?)";
